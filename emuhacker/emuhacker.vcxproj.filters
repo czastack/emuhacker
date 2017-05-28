@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProcessHandler\ProcessHandler.cpp">
+      <Filter>ProcessHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\gba.cpp">
+      <Filter>gba</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GbaEmuHandler.cpp">
+      <Filter>gba</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\NogbaHandler.cpp">
+      <Filter>gba</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\VbaHandler.cpp">
+      <Filter>gba</Filter>
+    </ClCompile>
+    <ClCompile Include="nds\nds.cpp">
+      <Filter>nds</Filter>
+    </ClCompile>
+    <ClCompile Include="nds\NdsEmuHandler.cpp">
+      <Filter>nds</Filter>
+    </ClCompile>
+    <ClCompile Include="nds\NogbaNdsHandler.cpp">
+      <Filter>nds</Filter>
+    </ClCompile>
+    <ClCompile Include="nds\DeSmuMEHandler.cpp">
+      <Filter>nds</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h" />
+    <ClInclude Include="ProcessHandler\ProcessHandler.h">
+      <Filter>ProcessHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\gba.h">
+      <Filter>gba</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GbaEmuHandler.h">
+      <Filter>gba</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\NogbaHandler.h">
+      <Filter>gba</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\VbaHandler.h">
+      <Filter>gba</Filter>
+    </ClInclude>
+    <ClInclude Include="nds\nds.h">
+      <Filter>nds</Filter>
+    </ClInclude>
+    <ClInclude Include="nds\NdsEmuHandler.h">
+      <Filter>nds</Filter>
+    </ClInclude>
+    <ClInclude Include="nds\NogbaNdsHandler.h">
+      <Filter>nds</Filter>
+    </ClInclude>
+    <ClInclude Include="nds\DeSmuMEHandler.h">
+      <Filter>nds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ProcessHandler">
+      <UniqueIdentifier>{06900e2f-2f09-4d9c-9636-fabee41516b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{4dbc8cb7-4813-4d91-a161-c80ed6c68725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gba">
+      <UniqueIdentifier>{aedbcdfe-0d3e-4547-b28e-2dac29c12318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nds">
+      <UniqueIdentifier>{813475b8-2988-42d7-9724-f2d795d8df63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
